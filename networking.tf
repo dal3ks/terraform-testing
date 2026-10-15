@@ -7,7 +7,7 @@ resource "aws_vpc" "tf_cloud" {
 }
 
 resource "aws_subnet" "tf_cloud" {
-  cidr_block = va.subnet_cidr
+  cidr_block = var.subnet_cidr
   vpc_id     = aws_vpc.tf_cloud.id
 
   tags = {
