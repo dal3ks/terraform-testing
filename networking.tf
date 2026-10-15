@@ -1,5 +1,5 @@
 module "networking-tf-course" {
-  source  = "app.terraform.io/dal3ks/networking-tf-course/aws"
+  source  = "app.terraform.io/dal3ks/networking-module/aws"
   version = "0.1.1"
   vpc_config = {
     cidr_block = "10.0.0.0/16"
