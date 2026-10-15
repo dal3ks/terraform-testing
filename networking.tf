@@ -8,7 +8,7 @@ module "networking-tf-course" {
   subnet_config = {
     subnet1 = {
       cidr_block = "10.0.0.0/24"
-      az         = "eu-west-2a"
+      az         = "eu-west-2c"
     }
   }
 }
